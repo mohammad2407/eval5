@@ -27,7 +27,7 @@ const getSuggestions = async() => {
             td2.innerHTML = element.brewery_type;
             td3.innerHTML = element.city;
             td4.innerHTML = element.state;
-            button.innerHTML = "More details"
+            a.innerHTML = "More details"
             button.style.width = "90%";
             button.style.padding = "5% 0"
             button.style.marginTop = "16px"
@@ -76,7 +76,7 @@ const delSuggestiion = async() =>{
             td2.innerHTML = element.brewery_type;
             td3.innerHTML = element.city;
             td4.innerHTML = element.state;
-            button.innerHTML = "More details"
+            a.innerHTML = "More details"
             button.style.width = "90%";
             button.style.padding = "5% 0"
             button.style.marginTop = "16px"

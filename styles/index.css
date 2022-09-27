@@ -8,6 +8,7 @@
     width:100%;
 }
 
+
 #nav-wrapper{
     width: 100%;
     display: flex;
@@ -26,7 +27,30 @@
 
 
 th {
+    background-color: rgba(123, 98, 146, 0.87);
+
     width:10%;
     padding:2%;
-    border : 1px solid red;
+    margin: 10px;
+    
+}
+
+
+td {
+    padding:1%;
+    background: green;
+    border: 1px solid black;
+    text-align:center;
+    color: #fff;
+}
+
+select{
+    width:10%;
+    padding: 0.8%;
+    background-color: rgb(135, 158, 150);
+}
+
+option :hover{
+    padding: 0.6%;
+    background-color: aliceblue;
 }
